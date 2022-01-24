@@ -14,7 +14,7 @@ public class Language extends LanguageRuntime {
   private final SLanguageId myId;
 
   public Language() {
-    myId = SLanguageId.deserialize("cb6b8586-c88b-4b3b-ba5a-6f5eded11db8");
+    myId = SLanguageId.deserialize("1235c5e6-31fd-4d86-a6f2-f516980c6b8f");
   }
 
   @Override

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="salesTransaction" uuid="cb6b8586-c88b-4b3b-ba5a-6f5eded11db8" languageVersion="0" moduleVersion="0">
+<language namespace="salesTransaction" uuid="1235c5e6-31fd-4d86-a6f2-f516980c6b8f" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="salesTransaction.generator" uuid="928b4ac0-e4d2-470c-8711-c89bd5ba22d7">
+    <generator alias="main" namespace="salesTransaction.generator" uuid="cb506c0c-f4e0-48ea-845c-2e27a268433a">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -48,8 +48,8 @@
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-        <module reference="cb6b8586-c88b-4b3b-ba5a-6f5eded11db8(salesTransaction)" version="0" />
-        <module reference="928b4ac0-e4d2-470c-8711-c89bd5ba22d7(salesTransaction.generator)" version="0" />
+        <module reference="1235c5e6-31fd-4d86-a6f2-f516980c6b8f(salesTransaction)" version="0" />
+        <module reference="cb506c0c-f4e0-48ea-845c-2e27a268433a(salesTransaction.generator)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -96,7 +96,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
-    <module reference="cb6b8586-c88b-4b3b-ba5a-6f5eded11db8(salesTransaction)" version="0" />
+    <module reference="1235c5e6-31fd-4d86-a6f2-f516980c6b8f(salesTransaction)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>

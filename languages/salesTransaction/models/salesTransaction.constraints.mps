@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:495b82cc-625f-4825-af0d-c5322a5cbdb3(salesTransaction.constraints)">
+<model ref="r:5f483643-6c22-49d5-8e83-d64bee9f48bb(salesTransaction.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

@@ -22,12 +22,12 @@ public class Generator extends TemplateModuleInterpreted2 {
   @NotNull
   @Override
   public SModuleReference getModuleReference() {
-    return PersistenceFacade.getInstance().createModuleReference("928b4ac0-e4d2-470c-8711-c89bd5ba22d7(salesTransaction.generator)");
+    return PersistenceFacade.getInstance().createModuleReference("cb506c0c-f4e0-48ea-845c-2e27a268433a(salesTransaction.generator)");
   }
 
   @Override
   protected void fillTemplateModels(TemplateModuleInterpreted2.TemplateModels models) {
-    models.templates("r:027a9697-9d85-4065-bd50-78c04b4254a9", QueriesGenerated.class);
+    models.templates("r:2d5c1609-e449-47c8-9ca2-a4b39e9c6afe", QueriesGenerated.class);
   }
 
 

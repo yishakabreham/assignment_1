@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cb1e997b-0631-4267-8b62-bcd4a82c6742(salesTransaction.editor)">
+<model ref="r:fee192f6-92b8-422f-bc4b-261016f9b7fa(salesTransaction.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />

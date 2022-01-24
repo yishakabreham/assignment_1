@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7b7b3008-94db-409f-9a93-9550f40fbee3(salesTransaction.behavior)">
+<model ref="r:1294440c-b442-4a64-bfbe-24491ff9ea34(salesTransaction.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
