@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="c1sno8w92qv6ba7qw6zuh7n6xocroib" />
+<product version="3" modelHash="1t67amax0y7t6jk3p1shcrx9omwds1r">
+  <files names="AdditionalCharge_Editor.java:AdditionalCharge_EditorBuilder_a.java:Address_Editor.java:Address_EditorBuilder_a.java:Card_Editor.java:Card_EditorBuilder_a.java:Card_SubstituteMenu.java:Cashier_Editor.java:Cashier_EditorBuilder_a.java:Company_Editor.java:Company_EditorBuilder_a.java:Customer_Editor.java:Customer_EditorBuilder_a.java:Discount_Editor.java:Discount_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:Item_Editor.java:Item_EditorBuilder_a.java:LineItem_Editor.java:LineItem_EditorBuilder_a.java:LineItem_SubstituteMenu.java:Price_Editor.java:Price_EditorBuilder_a.java:Stock_Editor.java:Stock_EditorBuilder_a.java:Tax_Editor.java:Tax_EditorBuilder_a.java:Transaction_Editor.java:Transaction_EditorBuilder_a.java" />
+</product>
 

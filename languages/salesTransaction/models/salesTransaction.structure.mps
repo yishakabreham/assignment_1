@@ -24,6 +24,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -48,6 +49,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -57,6 +61,7 @@
     <property role="EcuMT" value="520900788428557757" />
     <property role="TrG5h" value="Company" />
     <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="sUB87pwkR1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -91,6 +96,8 @@
   <node concept="1TIwiD" id="sUB87pwkQY">
     <property role="EcuMT" value="520900788428557758" />
     <property role="TrG5h" value="Address" />
+    <property role="34LRSv" value="company address" />
+    <property role="3GE5qa" value="Address" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="sUB87pwkR5" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557765" />
@@ -116,6 +123,8 @@
   <node concept="1TIwiD" id="sUB87pwkQZ">
     <property role="EcuMT" value="520900788428557759" />
     <property role="TrG5h" value="Stock" />
+    <property role="34LRSv" value="stock" />
+    <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="sUB87pwkRj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -131,6 +140,7 @@
   <node concept="1TIwiD" id="sUB87pwkR0">
     <property role="EcuMT" value="520900788428557760" />
     <property role="TrG5h" value="Transaction" />
+    <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="sUB87pwkRl" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557781" />
@@ -149,7 +159,7 @@
     </node>
     <node concept="1TJgyi" id="sUB87pwkTi" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557906" />
-      <property role="TrG5h" value="paymentMethos" />
+      <property role="TrG5h" value="paymentMethod" />
       <ref role="AX2Wp" node="sUB87pwkSi" resolve="PaymentMethod" />
     </node>
     <node concept="1TJgyj" id="sUB87pwkTn" role="1TKVEi">
@@ -181,42 +191,45 @@
   <node concept="25R3W" id="sUB87pwkS1">
     <property role="3F6X1D" value="520900788428557825" />
     <property role="TrG5h" value="TransactioType" />
+    <property role="3GE5qa" value="Type" />
     <ref role="1H5jkz" node="sUB87pwkS3" resolve="CashSales" />
     <node concept="25R33" id="sUB87pwkS3" role="25R1y">
       <property role="3tVfz5" value="520900788428557827" />
       <property role="TrG5h" value="CashSales" />
-      <property role="1L1pqM" value="0" />
+      <property role="1L1pqM" value="CashSales" />
     </node>
     <node concept="25R33" id="sUB87pwkS2" role="25R1y">
       <property role="3tVfz5" value="520900788428557826" />
       <property role="TrG5h" value="CreditSales" />
-      <property role="1L1pqM" value="1" />
+      <property role="1L1pqM" value="CreditSales" />
     </node>
     <node concept="25R33" id="sUB87pwkS6" role="25R1y">
       <property role="3tVfz5" value="520900788428557830" />
       <property role="TrG5h" value="AdvancePaymentSales" />
-      <property role="1L1pqM" value="2" />
+      <property role="1L1pqM" value="AdvancePaymentSales" />
     </node>
   </node>
   <node concept="25R3W" id="sUB87pwkSi">
     <property role="3F6X1D" value="520900788428557842" />
     <property role="TrG5h" value="PaymentMethod" />
+    <property role="3GE5qa" value="Type" />
     <ref role="1H5jkz" node="sUB87pwkSk" resolve="Card" />
     <node concept="25R33" id="sUB87pwkSj" role="25R1y">
       <property role="3tVfz5" value="520900788428557843" />
       <property role="TrG5h" value="Cash" />
-      <property role="1L1pqM" value="0" />
+      <property role="1L1pqM" value="Cash" />
     </node>
     <node concept="25R33" id="sUB87pwkSk" role="25R1y">
       <property role="3tVfz5" value="520900788428557844" />
       <property role="TrG5h" value="Card" />
-      <property role="1L1pqM" value="1" />
+      <property role="1L1pqM" value="Card" />
     </node>
   </node>
   <node concept="1TIwiD" id="sUB87pwkSt">
     <property role="EcuMT" value="520900788428557853" />
     <property role="TrG5h" value="Person" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="Person" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="sUB87pwkSu" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -230,6 +243,7 @@
   <node concept="1TIwiD" id="sUB87pwkSy">
     <property role="EcuMT" value="520900788428557858" />
     <property role="TrG5h" value="Customer" />
+    <property role="3GE5qa" value="Person" />
     <ref role="1TJDcQ" node="sUB87pwkSt" resolve="Person" />
     <node concept="1TJgyi" id="sUB87pwkSz" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557859" />
@@ -245,6 +259,7 @@
   <node concept="1TIwiD" id="sUB87pwkSC">
     <property role="EcuMT" value="520900788428557864" />
     <property role="TrG5h" value="Cashier" />
+    <property role="3GE5qa" value="Person" />
     <ref role="1TJDcQ" node="sUB87pwkSt" resolve="Person" />
     <node concept="1TJgyi" id="sUB87pwkSD" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557865" />
@@ -255,6 +270,7 @@
   <node concept="1TIwiD" id="sUB87pwkTw">
     <property role="EcuMT" value="520900788428557920" />
     <property role="TrG5h" value="Item" />
+    <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="sUB87pwkTx" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -272,7 +288,7 @@
     <node concept="1TJgyi" id="sUB87pwkTC" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557928" />
       <property role="TrG5h" value="uom" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="sUB87pwvQn" resolve="UOM" />
     </node>
     <node concept="1TJgyi" id="sUB87pwkTG" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557932" />
@@ -284,15 +300,22 @@
       <property role="TrG5h" value="isActive" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyj" id="29ee6AxkLe0" role="1TKVEi">
+      <property role="IQ2ns" value="2471975271802278784" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="unitPrice" />
+      <ref role="20lvS9" node="29ee6AxkLdX" resolve="Price" />
+    </node>
   </node>
   <node concept="1TIwiD" id="sUB87pwkTT">
     <property role="EcuMT" value="520900788428557945" />
     <property role="TrG5h" value="LineItem" />
+    <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="sUB87pwkTU" role="1TKVEl">
-      <property role="IQ2nx" value="520900788428557946" />
-      <property role="TrG5h" value="unitAmount" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="1TJgyi" id="3WdfahoAGP1" role="1TKVEl">
+      <property role="IQ2nx" value="4543354275645541697" />
+      <property role="TrG5h" value="code" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="sUB87pwkTW" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557948" />
@@ -332,6 +355,7 @@
   <node concept="1TIwiD" id="sUB87pwkUj">
     <property role="EcuMT" value="520900788428557971" />
     <property role="TrG5h" value="Discount" />
+    <property role="3GE5qa" value="Additional Charges" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="sUB87pwkUk" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557972" />
@@ -347,6 +371,7 @@
   <node concept="1TIwiD" id="sUB87pwkUp">
     <property role="EcuMT" value="520900788428557977" />
     <property role="TrG5h" value="AdditionalCharge" />
+    <property role="3GE5qa" value="Additional Charges" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="sUB87pwkUq" role="1TKVEl">
       <property role="IQ2nx" value="520900788428557978" />
@@ -357,6 +382,7 @@
   <node concept="1TIwiD" id="sUB87pwkUs">
     <property role="EcuMT" value="520900788428557980" />
     <property role="TrG5h" value="Tax" />
+    <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="sUB87pwuzu" role="1TKVEl">
       <property role="IQ2nx" value="520900788428597470" />
@@ -377,31 +403,33 @@
   <node concept="25R3W" id="sUB87pwuzg">
     <property role="3F6X1D" value="520900788428597456" />
     <property role="TrG5h" value="TaxType" />
+    <property role="3GE5qa" value="Type" />
     <ref role="1H5jkz" node="sUB87pwuzl" resolve="VAT" />
     <node concept="25R33" id="sUB87pwuzh" role="25R1y">
       <property role="3tVfz5" value="520900788428597457" />
       <property role="TrG5h" value="IncomeTax" />
-      <property role="1L1pqM" value="5" />
+      <property role="1L1pqM" value="IncomeTax" />
     </node>
     <node concept="25R33" id="sUB87pwuzi" role="25R1y">
       <property role="3tVfz5" value="520900788428597458" />
       <property role="TrG5h" value="CorporateTax" />
-      <property role="1L1pqM" value="10" />
+      <property role="1L1pqM" value="CorporateTax" />
     </node>
     <node concept="25R33" id="sUB87pwuzl" role="25R1y">
       <property role="3tVfz5" value="520900788428597461" />
       <property role="TrG5h" value="VAT" />
-      <property role="1L1pqM" value="15" />
+      <property role="1L1pqM" value="VAT" />
     </node>
     <node concept="25R33" id="sUB87pwuzp" role="25R1y">
       <property role="3tVfz5" value="520900788428597465" />
       <property role="TrG5h" value="TaxExempt" />
-      <property role="1L1pqM" value="0" />
+      <property role="1L1pqM" value="TaxExempt" />
     </node>
   </node>
   <node concept="1TIwiD" id="sUB87pwuzN">
     <property role="EcuMT" value="520900788428597491" />
     <property role="TrG5h" value="Card" />
+    <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="sUB87pwuzO" role="1TKVEi">
       <property role="IQ2ns" value="520900788428597492" />
@@ -418,6 +446,43 @@
       <property role="IQ2nx" value="520900788428597496" />
       <property role="TrG5h" value="expiryDate" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="25R3W" id="sUB87pwvQn">
+    <property role="3F6X1D" value="520900788428602775" />
+    <property role="TrG5h" value="UoM" />
+    <property role="3GE5qa" value="Type" />
+    <ref role="1H5jkz" node="sUB87pwvQo" resolve="Pcs" />
+    <node concept="25R33" id="sUB87pwvQo" role="25R1y">
+      <property role="3tVfz5" value="520900788428602776" />
+      <property role="TrG5h" value="Pcs" />
+      <property role="1L1pqM" value="Pieces" />
+    </node>
+    <node concept="25R33" id="sUB87pwvQs" role="25R1y">
+      <property role="3tVfz5" value="520900788428602780" />
+      <property role="TrG5h" value="Kg" />
+      <property role="1L1pqM" value="Kilograms" />
+    </node>
+    <node concept="25R33" id="sUB87pwvQp" role="25R1y">
+      <property role="3tVfz5" value="520900788428602777" />
+      <property role="TrG5h" value="Ltr" />
+      <property role="1L1pqM" value="Liter" />
+    </node>
+    <node concept="25R33" id="sUB87pwvQw" role="25R1y">
+      <property role="3tVfz5" value="520900788428602784" />
+      <property role="TrG5h" value="M" />
+      <property role="1L1pqM" value="Meter" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="29ee6AxkLdX">
+    <property role="EcuMT" value="2471975271802278781" />
+    <property role="TrG5h" value="Price" />
+    <property role="3GE5qa" value="Main" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="29ee6AxkLdY" role="1TKVEl">
+      <property role="IQ2nx" value="2471975271802278782" />
+      <property role="TrG5h" value="sellingPrice" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

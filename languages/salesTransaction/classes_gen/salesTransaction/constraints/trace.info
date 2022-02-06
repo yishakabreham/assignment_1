@@ -1,8 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
       <unit at="10,0,20,0" name="salesTransaction.constraints.ConstraintsAspectDescriptor" />
+    </file>
+    <file name="GeneratedFeedbackAspectConstraints.java">
+      <unit at="10,0,17,0" name="salesTransaction.constraints.GeneratedFeedbackAspectConstraints" />
+    </file>
+    <file name="GeneratedRulesConstraintsAspect.java">
+      <unit at="14,0,32,0" name="salesTransaction.constraints.GeneratedRulesConstraintsAspect" />
+    </file>
+  </root>
+  <root nodeRef="r:5f483643-6c22-49d5-8e83-d64bee9f48bb(salesTransaction.constraints)/2471975271802085005">
+    <file name="Company_ConstraintRules.java">
+      <node id="2471975271802085005" at="23,0,24,0" concept="3" trace="CONCEPT" />
+      <node id="914813813339727625" at="25,0,26,0" concept="3" trace="check_id914813813339727625" />
+      <node id="2471975271802085005" at="27,0,28,0" concept="3" trace="RULES" />
+      <node id="2471975271802085005" at="31,43,32,17" concept="2" />
+      <node id="914813813339727625" at="36,0,37,0" concept="3" trace="SOURCE_NODE_REF" />
+      <node id="914813813339727625" at="37,0,38,0" concept="3" trace="ID_codiceChecker" />
+      <node id="914813813339727625" at="39,33,40,90" concept="4" />
+      <node id="914813813339727625" at="44,63,45,101" concept="2" />
+      <node id="914813813339727625" at="49,67,50,94" concept="2" />
+      <node id="2471975271802085005" at="54,41,55,19" concept="4" />
+      <node id="2471975271802085005" at="59,0,60,0" concept="3" trace="codice$ZlEh" />
+      <node id="914813813339727625" at="39,0,42,0" concept="0" trace="Rule_codiceChecker#()V" />
+      <node id="2471975271802085005" at="54,0,57,0" concept="0" trace="Company_ConstraintRules#()V" />
+      <node id="914813813339727625" at="43,0,47,0" concept="1" trace="check#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Z" />
+      <node id="914813813339727625" at="48,0,52,0" concept="1" trace="appliesTo#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Z" />
+      <node id="2471975271802085005" at="29,0,34,0" concept="1" trace="getDeclaredRules#()Ljava/util/List;" />
+      <scope id="2471975271802085005" at="31,43,32,17" />
+      <scope id="914813813339727625" at="39,33,40,90" />
+      <scope id="914813813339727625" at="44,63,45,101" />
+      <scope id="914813813339727625" at="49,67,50,94" />
+      <scope id="2471975271802085005" at="54,41,55,19" />
+      <scope id="914813813339727625" at="39,0,42,0" />
+      <scope id="2471975271802085005" at="54,0,57,0" />
+      <scope id="914813813339727625" at="43,0,47,0">
+        <var name="context" id="914813813339727625" />
+      </scope>
+      <scope id="914813813339727625" at="48,0,52,0">
+        <var name="context" id="914813813339727625" />
+      </scope>
+      <scope id="2471975271802085005" at="29,0,34,0" />
+      <unit id="2471975271802085005" at="58,0,61,0" name="salesTransaction.constraints.Company_ConstraintRules$PROPS" />
+      <unit id="914813813339727625" at="35,0,53,0" name="salesTransaction.constraints.Company_ConstraintRules$Rule_codiceChecker" />
+      <unit id="2471975271802085005" at="22,0,62,0" name="salesTransaction.constraints.Company_ConstraintRules" />
+    </file>
+    <file name="Company_ConstraintsFeedback.java">
+      <node id="2471975271802085005" at="20,0,21,0" concept="3" trace="CONCEPT" />
+      <node id="914813813339727624" at="25,73,26,93" concept="2" />
+      <node id="2471975271802085005" at="30,0,31,0" concept="3" trace="PROVIDERS" />
+      <node id="2471975271802085005" at="32,40,33,19" concept="4" />
+      <node id="2471975271802085005" at="38,58,39,30" concept="2" />
+      <node id="2471975271802085005" at="32,0,35,0" concept="0" trace="Company_ConstraintsFeedback#()V" />
+      <node id="914813813339727624" at="23,0,28,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="2471975271802085005" at="36,0,41,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="914813813339727624" at="22,0,29,0" concept="3" trace="MSGPROVIDER_WhenConstraintRuleFails_a514z0_a" />
+      <scope id="914813813339727624" at="25,73,26,93" />
+      <scope id="2471975271802085005" at="32,40,33,19" />
+      <scope id="2471975271802085005" at="38,58,39,30" />
+      <scope id="2471975271802085005" at="32,0,35,0" />
+      <scope id="914813813339727624" at="23,0,28,0">
+        <var name="context" id="914813813339727624" />
+      </scope>
+      <scope id="2471975271802085005" at="36,0,41,0" />
+      <unit id="914813813339727624" at="22,111,28,3" name="salesTransaction.constraints.Company_ConstraintsFeedback$1" />
+      <unit id="2471975271802085005" at="19,0,42,0" name="salesTransaction.constraints.Company_ConstraintsFeedback" />
+    </file>
+  </root>
+  <root nodeRef="r:5f483643-6c22-49d5-8e83-d64bee9f48bb(salesTransaction.constraints)/4543354275645795772">
+    <file name="Item_ConstraintRules.java">
+      <node id="4543354275645795772" at="23,0,24,0" concept="3" trace="CONCEPT" />
+      <node id="4543354275645795792" at="25,0,26,0" concept="3" trace="check_id4543354275645795792" />
+      <node id="4543354275645795772" at="27,0,28,0" concept="3" trace="RULES" />
+      <node id="4543354275645795772" at="31,43,32,17" concept="2" />
+      <node id="4543354275645795792" at="36,0,37,0" concept="3" trace="SOURCE_NODE_REF" />
+      <node id="4543354275645795792" at="37,0,38,0" concept="3" trace="ID_availabilityChecker" />
+      <node id="4543354275645795792" at="39,39,40,96" concept="4" />
+      <node id="4543354275645795792" at="44,63,45,101" concept="2" />
+      <node id="4543354275645795792" at="49,67,50,18" concept="2" />
+      <node id="4543354275645795772" at="54,38,55,19" concept="4" />
+      <node id="4543354275645795772" at="59,0,60,0" concept="3" trace="availableNumber$6gln" />
+      <node id="4543354275645795792" at="39,0,42,0" concept="0" trace="Rule_availabilityChecker#()V" />
+      <node id="4543354275645795772" at="54,0,57,0" concept="0" trace="Item_ConstraintRules#()V" />
+      <node id="4543354275645795792" at="43,0,47,0" concept="1" trace="check#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Z" />
+      <node id="4543354275645795792" at="48,0,52,0" concept="1" trace="appliesTo#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Z" />
+      <node id="4543354275645795772" at="29,0,34,0" concept="1" trace="getDeclaredRules#()Ljava/util/List;" />
+      <scope id="4543354275645795772" at="31,43,32,17" />
+      <scope id="4543354275645795792" at="39,39,40,96" />
+      <scope id="4543354275645795792" at="44,63,45,101" />
+      <scope id="4543354275645795792" at="49,67,50,18" />
+      <scope id="4543354275645795772" at="54,38,55,19" />
+      <scope id="4543354275645795792" at="39,0,42,0" />
+      <scope id="4543354275645795772" at="54,0,57,0" />
+      <scope id="4543354275645795792" at="43,0,47,0">
+        <var name="context" id="4543354275645795792" />
+      </scope>
+      <scope id="4543354275645795792" at="48,0,52,0">
+        <var name="context" id="4543354275645795792" />
+      </scope>
+      <scope id="4543354275645795772" at="29,0,34,0" />
+      <unit id="4543354275645795772" at="58,0,61,0" name="salesTransaction.constraints.Item_ConstraintRules$PROPS" />
+      <unit id="4543354275645795792" at="35,0,53,0" name="salesTransaction.constraints.Item_ConstraintRules$Rule_availabilityChecker" />
+      <unit id="4543354275645795772" at="22,0,62,0" name="salesTransaction.constraints.Item_ConstraintRules" />
+    </file>
+    <file name="Item_ConstraintsFeedback.java">
+      <node id="4543354275645795772" at="20,0,21,0" concept="3" trace="CONCEPT" />
+      <node id="4543354275645795791" at="25,73,26,103" concept="2" />
+      <node id="4543354275645795772" at="30,0,31,0" concept="3" trace="PROVIDERS" />
+      <node id="4543354275645795772" at="32,37,33,19" concept="4" />
+      <node id="4543354275645795772" at="38,58,39,30" concept="2" />
+      <node id="4543354275645795772" at="32,0,35,0" concept="0" trace="Item_ConstraintsFeedback#()V" />
+      <node id="4543354275645795791" at="23,0,28,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="4543354275645795772" at="36,0,41,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="4543354275645795791" at="22,0,29,0" concept="3" trace="MSGPROVIDER_WhenConstraintRuleFails_zbt1zr_a" />
+      <scope id="4543354275645795791" at="25,73,26,103" />
+      <scope id="4543354275645795772" at="32,37,33,19" />
+      <scope id="4543354275645795772" at="38,58,39,30" />
+      <scope id="4543354275645795772" at="32,0,35,0" />
+      <scope id="4543354275645795791" at="23,0,28,0">
+        <var name="context" id="4543354275645795791" />
+      </scope>
+      <scope id="4543354275645795772" at="36,0,41,0" />
+      <unit id="4543354275645795791" at="22,111,28,3" name="salesTransaction.constraints.Item_ConstraintsFeedback$1" />
+      <unit id="4543354275645795772" at="19,0,42,0" name="salesTransaction.constraints.Item_ConstraintsFeedback" />
+    </file>
+  </root>
+  <root nodeRef="r:5f483643-6c22-49d5-8e83-d64bee9f48bb(salesTransaction.constraints)/4543354275645953538">
+    <file name="Price_ConstraintRules.java">
+      <node id="4543354275645953538" at="23,0,24,0" concept="3" trace="CONCEPT" />
+      <node id="4543354275645953542" at="25,0,26,0" concept="3" trace="check_id4543354275645953542" />
+      <node id="4543354275645953538" at="27,0,28,0" concept="3" trace="RULES" />
+      <node id="4543354275645953538" at="31,43,32,17" concept="2" />
+      <node id="4543354275645953542" at="36,0,37,0" concept="3" trace="SOURCE_NODE_REF" />
+      <node id="4543354275645953542" at="37,0,38,0" concept="3" trace="ID_priceChecker" />
+      <node id="4543354275645953542" at="39,32,40,89" concept="4" />
+      <node id="4543354275645953542" at="44,63,45,98" concept="2" />
+      <node id="4543354275645953542" at="49,67,50,18" concept="2" />
+      <node id="4543354275645953538" at="54,39,55,19" concept="4" />
+      <node id="4543354275645953538" at="59,0,60,0" concept="3" trace="sellingPrice$mHmn" />
+      <node id="4543354275645953542" at="39,0,42,0" concept="0" trace="Rule_priceChecker#()V" />
+      <node id="4543354275645953538" at="54,0,57,0" concept="0" trace="Price_ConstraintRules#()V" />
+      <node id="4543354275645953542" at="43,0,47,0" concept="1" trace="check#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Z" />
+      <node id="4543354275645953542" at="48,0,52,0" concept="1" trace="appliesTo#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Z" />
+      <node id="4543354275645953538" at="29,0,34,0" concept="1" trace="getDeclaredRules#()Ljava/util/List;" />
+      <scope id="4543354275645953538" at="31,43,32,17" />
+      <scope id="4543354275645953542" at="39,32,40,89" />
+      <scope id="4543354275645953542" at="44,63,45,98" />
+      <scope id="4543354275645953542" at="49,67,50,18" />
+      <scope id="4543354275645953538" at="54,39,55,19" />
+      <scope id="4543354275645953542" at="39,0,42,0" />
+      <scope id="4543354275645953538" at="54,0,57,0" />
+      <scope id="4543354275645953542" at="43,0,47,0">
+        <var name="context" id="4543354275645953542" />
+      </scope>
+      <scope id="4543354275645953542" at="48,0,52,0">
+        <var name="context" id="4543354275645953542" />
+      </scope>
+      <scope id="4543354275645953538" at="29,0,34,0" />
+      <unit id="4543354275645953538" at="58,0,61,0" name="salesTransaction.constraints.Price_ConstraintRules$PROPS" />
+      <unit id="4543354275645953542" at="35,0,53,0" name="salesTransaction.constraints.Price_ConstraintRules$Rule_priceChecker" />
+      <unit id="4543354275645953538" at="22,0,62,0" name="salesTransaction.constraints.Price_ConstraintRules" />
+    </file>
+    <file name="Price_ConstraintsFeedback.java">
+      <node id="4543354275645953538" at="20,0,21,0" concept="3" trace="CONCEPT" />
+      <node id="4543354275645953541" at="25,73,26,84" concept="2" />
+      <node id="4543354275645953538" at="30,0,31,0" concept="3" trace="PROVIDERS" />
+      <node id="4543354275645953538" at="32,38,33,19" concept="4" />
+      <node id="4543354275645953538" at="38,58,39,30" concept="2" />
+      <node id="4543354275645953538" at="32,0,35,0" concept="0" trace="Price_ConstraintsFeedback#()V" />
+      <node id="4543354275645953541" at="23,0,28,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/constraints/rules/kinds/ContainmentContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="4543354275645953538" at="36,0,41,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="4543354275645953541" at="22,0,29,0" concept="3" trace="MSGPROVIDER_WhenConstraintRuleFails_144w5u_a" />
+      <scope id="4543354275645953541" at="25,73,26,84" />
+      <scope id="4543354275645953538" at="32,38,33,19" />
+      <scope id="4543354275645953538" at="38,58,39,30" />
+      <scope id="4543354275645953538" at="32,0,35,0" />
+      <scope id="4543354275645953541" at="23,0,28,0">
+        <var name="context" id="4543354275645953541" />
+      </scope>
+      <scope id="4543354275645953538" at="36,0,41,0" />
+      <unit id="4543354275645953541" at="22,111,28,3" name="salesTransaction.constraints.Price_ConstraintsFeedback$1" />
+      <unit id="4543354275645953538" at="19,0,42,0" name="salesTransaction.constraints.Price_ConstraintsFeedback" />
     </file>
   </root>
 </debug-info>

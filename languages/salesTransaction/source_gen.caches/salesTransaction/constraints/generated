@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-9k5dhl97g1wccf0ql8a0q36i49h6s5w">
-  <files names="ConstraintsAspectDescriptor.java" />
+<product version="3" modelHash="-7qnnsb7bafd06slxkg7g6qdh7n9hu6v">
+  <files names="Company_ConstraintRules.java:Company_ConstraintsFeedback.java:ConstraintsAspectDescriptor.java:GeneratedFeedbackAspectConstraints.java:GeneratedRulesConstraintsAspect.java:Item_ConstraintRules.java:Item_ConstraintsFeedback.java:Price_ConstraintRules.java:Price_ConstraintsFeedback.java" />
 </product>
 
