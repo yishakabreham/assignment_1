@@ -82,7 +82,7 @@
       <property role="IQ2ns" value="520900788428597506" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="stock" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="sUB87pwkQZ" resolve="Stock" />
     </node>
     <node concept="1TJgyj" id="sUB87pwu$5" role="1TKVEi">
@@ -123,7 +123,7 @@
   <node concept="1TIwiD" id="sUB87pwkQZ">
     <property role="EcuMT" value="520900788428557759" />
     <property role="TrG5h" value="Stock" />
-    <property role="34LRSv" value="stock" />
+    <property role="34LRSv" value="store" />
     <property role="3GE5qa" value="Main" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="sUB87pwkRj" role="PzmwI">

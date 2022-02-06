@@ -33,6 +33,8 @@
       <concept id="520900788428557760" name="salesTransaction.structure.Transaction" flags="ng" index="3uIX51">
         <property id="520900788428557781" name="transactionNumber" index="3uIX5k" />
         <property id="520900788428557783" name="date" index="3uIX5m" />
+        <property id="520900788428557786" name="transactionType" index="3uIX5r" />
+        <property id="520900788428557906" name="paymentMethod" index="3uIXbj" />
         <child id="520900788428597499" name="card" index="3uIRhU" />
         <child id="520900788428557911" name="customer" index="3uIXbm" />
         <child id="520900788428557913" name="cashier" index="3uIXbo" />
@@ -85,7 +87,7 @@
   </registry>
   <node concept="3uIX4W" id="3Wdfahou$BE">
     <property role="3uIX52" value="0000000000000" />
-    <property role="TrG5h" value="Conad Supermarket" />
+    <property role="TrG5h" value="Conad" />
     <node concept="3uIX4Z" id="3Wdfahou$BF" role="3uIRm1">
       <property role="3uIX54" value="Via Albert Sabin" />
       <property role="3uIX56" value="L'Aquila" />
@@ -170,6 +172,113 @@
         <property role="3uIRhR" value="2133-3456-3432-5322" />
         <property role="3uIRhT" value="09/2030" />
         <ref role="3uIRhP" node="3WdfahovUfj" resolve="Shrawan " />
+      </node>
+    </node>
+  </node>
+  <node concept="3uIX4W" id="3WdfahoHKS_">
+    <property role="3uIX52" value="CRF678HGR34RT" />
+    <property role="TrG5h" value="Carrefour" />
+    <node concept="3uIX4Z" id="3WdfahoHKSA" role="3uIRm1">
+      <property role="3uIX54" value="Via Enrico Ferri, 43, 00175" />
+      <property role="3uIX56" value="Roma" />
+      <property role="3uIX5b" value="Italy" />
+      <property role="3uIX5f" value="+39 06 7245 2900" />
+    </node>
+    <node concept="3uIX4Y" id="3WdfahoHKSB" role="3uIRm3">
+      <property role="TrG5h" value="Main" />
+      <node concept="3uIXbx" id="3WdfahoHLwU" role="3uIXbQ">
+        <property role="3uIXby" value="IT-00001" />
+        <property role="TrG5h" value="Pizza" />
+        <property role="3uIXb$" value="Frozen 1000g Pizza" />
+        <property role="3uIXbH" value="300" />
+        <property role="3uIXbK" value="true" />
+        <node concept="237iGk" id="3WdfahoHLwW" role="237iJD">
+          <property role="237iGn" value="3" />
+        </node>
+      </node>
+      <node concept="3uIXbx" id="3WdfahoHLwY" role="3uIXbQ">
+        <property role="3uIXby" value="IT-00002" />
+        <property role="TrG5h" value="Head and Shoulder" />
+        <property role="3uIXb$" value="Shampoo" />
+        <property role="3uIXbH" value="150" />
+        <property role="3uIXbK" value="true" />
+        <node concept="237iGk" id="3WdfahoHLx2" role="237iJD">
+          <property role="237iGn" value="4" />
+        </node>
+      </node>
+    </node>
+    <node concept="3uIX51" id="3WdfahoHLx4" role="3uIRm4">
+      <property role="3uIX5k" value="CS-00001-22" />
+      <property role="3uIX5m" value="08-08-2021" />
+      <property role="3uIX5r" value="sUB87pwkS2/CreditSales" />
+      <property role="3uIXbj" value="sUB87pwkSj/Cash" />
+      <node concept="3uIXbS" id="3WdfahoHLx5" role="3uIXbt">
+        <property role="1B_Z7_" value="Li-00001" />
+        <property role="3uIXbX" value="2" />
+        <property role="3uIX86" value="8" />
+        <ref role="3uIX84" node="3WdfahoHLwY" resolve="Head and Shoulder" />
+      </node>
+      <node concept="3uIXaz" id="3WdfahoHLx8" role="3uIXbm">
+        <property role="3uIXay" value="C-00001" />
+        <property role="TrG5h" value="Maliha" />
+        <property role="3uIXa$" value="+39 333 107 3505" />
+        <property role="3uIXax" value="Maliha" />
+      </node>
+      <node concept="3uIXaD" id="3WdfahoHLxa" role="3uIXbo">
+        <property role="3uIXaC" value="E-00001" />
+        <property role="TrG5h" value="Frank" />
+        <property role="3uIXax" value="Yishak" />
+      </node>
+      <node concept="3uIRhM" id="3WdfahoHLxc" role="3uIRhU">
+        <property role="3uIRhR" value="5675-5454-2323-7887" />
+        <property role="3uIRhT" value="11/2024" />
+        <ref role="3uIRhP" node="3WdfahoHLx8" resolve="Maliha" />
+      </node>
+    </node>
+    <node concept="3uIX51" id="3WdfahoHLxe" role="3uIRm4">
+      <property role="3uIX5k" value="CS-00002" />
+      <property role="3uIX5m" value="01-01-2022" />
+      <node concept="3uIXbS" id="3WdfahoHLxf" role="3uIXbt">
+        <property role="1B_Z7_" value="Li-00001" />
+        <property role="3uIXbX" value="3" />
+        <property role="3uIX86" value="9" />
+        <ref role="3uIX84" node="3WdfahoHLwU" resolve="Pizza" />
+        <node concept="3uIX8o" id="3WdfahoHLxt" role="3uIRhJ">
+          <property role="3uIX8r" value="0" />
+        </node>
+      </node>
+      <node concept="3uIXbS" id="3WdfahoHLxv" role="3uIXbt">
+        <property role="1B_Z7_" value="Li-00002" />
+        <property role="3uIXbX" value="4" />
+        <property role="3uIX86" value="16" />
+        <ref role="3uIX84" node="3WdfahoHLwY" resolve="Head and Shoulder" />
+        <node concept="3uIX8t" id="3WdfahoHLxz" role="3uIRhA">
+          <property role="3uIRhx" value="16" />
+          <property role="3uIRhy" value="2" />
+        </node>
+        <node concept="3uIX8i" id="3WdfahoHLx_" role="3uIRhF">
+          <property role="3uIX8l" value="10" />
+          <property role="3uIX8n" value="3" />
+        </node>
+        <node concept="3uIX8o" id="3WdfahoHLxB" role="3uIRhJ">
+          <property role="3uIX8r" value="1" />
+        </node>
+      </node>
+      <node concept="3uIXaz" id="3WdfahoHLxn" role="3uIXbm">
+        <property role="3uIXay" value="C-00002" />
+        <property role="TrG5h" value="Yishak Abreham" />
+        <property role="3uIXax" value="Gebremichael" />
+        <property role="3uIXa$" value="0914569653" />
+      </node>
+      <node concept="3uIXaD" id="3WdfahoHLxp" role="3uIXbo">
+        <property role="3uIXaC" value="E-00002" />
+        <property role="TrG5h" value="Shrawan" />
+        <property role="3uIXax" value="Bishowkarma" />
+      </node>
+      <node concept="3uIRhM" id="3WdfahoHLxr" role="3uIRhU">
+        <property role="3uIRhR" value="1234-5676-5532-5689" />
+        <property role="3uIRhT" value="11/2028" />
+        <ref role="3uIRhP" node="3WdfahoHLxn" resolve="Yishak Abreham" />
       </node>
     </node>
   </node>

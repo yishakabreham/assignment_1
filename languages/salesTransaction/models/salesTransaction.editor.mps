@@ -18,7 +18,6 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
-      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
@@ -267,34 +266,31 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3EZMnI" id="5_wCK3MFQdu" role="3EZMnx">
-        <node concept="2iRfu4" id="5_wCK3MFQdv" role="2iSdaV" />
-        <node concept="3F1sOY" id="29ee6AxjO$x" role="3EZMnx">
-          <ref role="1NtTu8" to="kvfv:sUB87pwu$0" resolve="address" />
-          <node concept="pVoyu" id="29ee6AxjO$N" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="29ee6AxjO$P" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
+      <node concept="3F1sOY" id="29ee6AxjO$x" role="3EZMnx">
+        <ref role="1NtTu8" to="kvfv:sUB87pwu$0" resolve="address" />
+        <node concept="pVoyu" id="29ee6AxjO$N" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="29ee6AxjO$P" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="29ee6AxjO_j" role="3EZMnx">
-        <property role="3F0ifm" value="Stocks" />
-        <node concept="pVoyu" id="29ee6AxjOAu" role="3F10Kt">
+        <property role="3F0ifm" value="Stores" />
+        <node concept="pVoyu" id="3WdfahoGicc" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F2HdR" id="29ee6AxjOAd" role="3EZMnx">
+      <node concept="3F2HdR" id="3WdfahoFHS5" role="3EZMnx">
         <ref role="1NtTu8" to="kvfv:sUB87pwu$2" resolve="stock" />
-        <node concept="l2Vlx" id="29ee6AxjOAf" role="2czzBx" />
-        <node concept="pVoyu" id="29ee6AxjOAw" role="3F10Kt">
+        <node concept="l2Vlx" id="3WdfahoFHS7" role="2czzBx" />
+        <node concept="pVoyu" id="3WdfahoFHZE" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="pj6Ft" id="29ee6AxjOAy" role="3F10Kt">
+        <node concept="lj46D" id="3WdfahoFHZG" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="lj46D" id="29ee6AxjOA_" role="3F10Kt">
+        <node concept="pj6Ft" id="3WdfahoGMQv" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -348,32 +344,6 @@
         </node>
       </node>
       <node concept="l2Vlx" id="2aCU$UBZJzx" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="2aCU$UBZQcs">
-    <property role="3GE5qa" value="Main" />
-    <ref role="1XX52x" to="kvfv:sUB87pwkQZ" resolve="Stock" />
-    <node concept="3EZMnI" id="2aCU$UBZQcu" role="2wV5jI">
-      <node concept="3F0ifn" id="3WdfahozpMs" role="3EZMnx">
-        <property role="3F0ifm" value="Name:" />
-      </node>
-      <node concept="3F0A7n" id="3WdfahozpMC" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F2HdR" id="2aCU$UBZQc_" role="3EZMnx">
-        <ref role="1NtTu8" to="kvfv:sUB87pwkTR" resolve="items" />
-        <node concept="l2Vlx" id="2aCU$UBZQcB" role="2czzBx" />
-        <node concept="pj6Ft" id="2aCU$UBZQcE" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pVoyu" id="3WdfahozpMN" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="3WdfahozpMQ" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="2aCU$UBZQcx" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="2aCU$UBZWYA">
