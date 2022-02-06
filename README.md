@@ -27,6 +27,6 @@ In the development of the language there will be two specific stakeholders, the 
 - We also did a foreground coloring for the codice fiscale
 
 # 19/01/2022
-# Cash sales: Cash is collected when the business makes the sale and delivers the product and/or service to the customer.
-# Credit sales: Cash isn’t collected until sometime after the sale is made; the customer is given a period of time before it has to pay the business.
-# Advance payment sales: The customer pays the business before the sale is consummated, that is, before the business delivers the product and/or service to the customer.
+Cash sales: Cash is collected when the business makes the sale and delivers the product and/or service to the customer.
+Credit sales: Cash isn’t collected until sometime after the sale is made; the customer is given a period of time before it has to pay the business.
+Advance payment sales: The customer pays the business before the sale is consummated, that is, before the business delivers the product and/or service to the customer.
